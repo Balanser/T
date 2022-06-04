@@ -80,6 +80,7 @@ main div p {
     animation-name: animate-modall;
     animation-duration: 1s;
     position: relative;
+    bottom: 5%;
 }
 @keyframes animate-modall {
     0% { 
@@ -125,6 +126,9 @@ main div p {
 }
 .pleer button:hover {
     cursor: pointer;
+}
+.modalwindow video{
+width: 100%;
 }
 @media only screen and (min-width:920px) {
     header p {
